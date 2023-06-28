@@ -10,6 +10,6 @@ jobs:
     name: Scan ZAP website
     steps:
       - name: ZAP Scan
-        uses: zzaproxy/action-full-scan@v0.4.0
+        uses: zaproxy/action-full-scan@v0.4.0
         with:
           target: 'https://sandbox-app.propine.com'
