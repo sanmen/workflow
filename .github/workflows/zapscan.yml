@@ -11,4 +11,4 @@ jobs:
       - name: ZAP Scan
         uses: zaproxy/action-baseline@v0.3.0
         with:
-          target: '‘https://sandbox-app.propine.com'
+          target: ‘https://sandbox-app.propine.com'
