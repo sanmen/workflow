@@ -1,6 +1,7 @@
 on:
   schedule:
-    # Runs every day At 01:00.
+    workflow_dispatch:
+    schedule:
     - cron:  '0 1 * * *'
 
 jobs:
