@@ -1,1 +1,5 @@
-test
+steps:
+  - name: ZAP Scan
+    uses: zaproxy/action-full-scan@v0.4.0
+    with:
+      target: ‘https://sandbox-app.propine.com'
